@@ -1,0 +1,244 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bustrackingapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+14-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:8:5-85
+14-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:8:22-82
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:9:5-77
+15-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:9:22-74
+16
+17    <!-- Include required permissions for Google Maps API to run. -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\c1bbe46e628103dfd423792cc4193791\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\c1bbe46e628103dfd423792cc4193791\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\c1bbe46e628103dfd423792cc4193791\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\c1bbe46e628103dfd423792cc4193791\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\c1bbe46e628103dfd423792cc4193791\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+23
+24    <queries>
+24-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\c1bbe46e628103dfd423792cc4193791\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+25
+26        <!-- Needs to be explicitly declared on Android R+ -->
+27        <package android:name="com.google.android.apps.maps" />
+27-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\c1bbe46e628103dfd423792cc4193791\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+27-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\c1bbe46e628103dfd423792cc4193791\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+28    </queries>
+29
+30    <permission
+30-->[androidx.core:core:1.9.0] C:\Users\taksh\.gradle\caches\transforms-3\49146346214da48cc157b68005495031\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+31        android:name="com.example.bustrackingapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.9.0] C:\Users\taksh\.gradle\caches\transforms-3\49146346214da48cc157b68005495031\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.9.0] C:\Users\taksh\.gradle\caches\transforms-3\49146346214da48cc157b68005495031\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.example.bustrackingapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.9.0] C:\Users\taksh\.gradle\caches\transforms-3\49146346214da48cc157b68005495031\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.9.0] C:\Users\taksh\.gradle\caches\transforms-3\49146346214da48cc157b68005495031\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:11:5-69:19
+37        android:allowBackup="true"
+37-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:12:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.9.0] C:\Users\taksh\.gradle\caches\transforms-3\49146346214da48cc157b68005495031\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+39        android:dataExtractionRules="@xml/data_extraction_rules"
+39-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:13:9-65
+40        android:debuggable="true"
+41        android:fullBackupContent="@xml/backup_rules"
+41-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:14:9-54
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:15:9-43
+43        android:label="@string/app_name"
+43-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:16:9-41
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:17:9-54
+45        android:supportsRtl="true"
+45-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:18:9-35
+46        android:testOnly="true"
+47        android:theme="@style/Theme.BusTrackingApp" >
+47-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:19:9-52
+48        <activity
+48-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:21:9-23:40
+49            android:name="com.example.bustrackingapp.ShareLocation2"
+49-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:22:13-43
+50            android:exported="false" />
+50-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:23:13-37
+51        <!--
+52             TODO: Before you run your application, you need a Google Maps API key.
+53
+54             To get one, follow the directions here:
+55
+56                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+57
+58             Once you have your API key (it starts with "AIza"), define a new property in your
+59             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+60             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+61        -->
+62        <meta-data
+63            android:name="com.google.android.geo.API_KEY"
+63-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:36:13-58
+64            android:value="AIzaSyCv_UJv_B8YQpN2Y_CbT0uWiwcItKiJZP8" />
+64-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:37:13-44
+65
+66        <activity
+66-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:39:9-41:40
+67            android:name="com.example.bustrackingapp.ShareLocation"
+67-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:40:13-42
+68            android:exported="false" />
+68-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:41:13-37
+69        <activity
+69-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:42:9-44:40
+70            android:name="com.example.bustrackingapp.ConductorLogin"
+70-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:43:13-43
+71            android:exported="false" />
+71-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:44:13-37
+72        <activity
+72-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:45:9-48:64
+73            android:name="com.example.bustrackingapp.UserMapsActivity"
+73-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:46:13-45
+74            android:exported="false"
+74-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:47:13-37
+75            android:label="@string/title_activity_user_maps" />
+75-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:48:13-61
+76        <activity
+76-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:49:9-55:20
+77            android:name="com.example.bustrackingapp.InputBusDetails"
+77-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:50:13-44
+78            android:exported="false" >
+78-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:51:13-37
+79            <meta-data
+79-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:52:13-54:36
+80                android:name="android.app.lib_name"
+80-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:53:17-52
+81                android:value="" />
+81-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:54:17-33
+82        </activity>
+83        <activity
+83-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:56:9-68:20
+84            android:name="com.example.bustrackingapp.MainActivity"
+84-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:57:13-41
+85            android:exported="true" >
+85-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:58:13-36
+86            <intent-filter>
+86-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:59:13-63:29
+87                <action android:name="android.intent.action.MAIN" />
+87-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:60:17-69
+87-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:60:25-66
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:62:17-77
+89-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:62:27-74
+90            </intent-filter>
+91
+92            <meta-data
+92-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:52:13-54:36
+93                android:name="android.app.lib_name"
+93-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:53:17-52
+94                android:value="" />
+94-->C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\src\main\AndroidManifest.xml:54:17-33
+95        </activity>
+96        <activity
+96-->[com.karumi:dexter:6.2.3] C:\Users\taksh\.gradle\caches\transforms-3\d4668594f64a3234372c5d15ef3e97a0\transformed\dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+97            android:name="com.karumi.dexter.DexterActivity"
+97-->[com.karumi:dexter:6.2.3] C:\Users\taksh\.gradle\caches\transforms-3\d4668594f64a3234372c5d15ef3e97a0\transformed\dexter-6.2.3\AndroidManifest.xml:28:13-60
+98            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Needs to be explicitly declared on P+ -->
+98-->[com.karumi:dexter:6.2.3] C:\Users\taksh\.gradle\caches\transforms-3\d4668594f64a3234372c5d15ef3e97a0\transformed\dexter-6.2.3\AndroidManifest.xml:29:13-69
+99        <uses-library
+99-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\c1bbe46e628103dfd423792cc4193791\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+100            android:name="org.apache.http.legacy"
+100-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\c1bbe46e628103dfd423792cc4193791\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+101            android:required="false" />
+101-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\c1bbe46e628103dfd423792cc4193791\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+102
+103        <service
+103-->[com.google.firebase:firebase-database:20.2.2] C:\Users\taksh\.gradle\caches\transforms-3\93c481a65a1991b5f903298174a382b9\transformed\firebase-database-20.2.2\AndroidManifest.xml:28:9-34:19
+104            android:name="com.google.firebase.components.ComponentDiscoveryService"
+104-->[com.google.firebase:firebase-database:20.2.2] C:\Users\taksh\.gradle\caches\transforms-3\93c481a65a1991b5f903298174a382b9\transformed\firebase-database-20.2.2\AndroidManifest.xml:29:13-84
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.3.2] C:\Users\taksh\.gradle\caches\transforms-3\bdb90605090776947e89c7fa2f6547b1\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-database:20.2.2] C:\Users\taksh\.gradle\caches\transforms-3\93c481a65a1991b5f903298174a382b9\transformed\firebase-database-20.2.2\AndroidManifest.xml:30:13-37
+107            <meta-data
+107-->[com.google.firebase:firebase-database:20.2.2] C:\Users\taksh\.gradle\caches\transforms-3\93c481a65a1991b5f903298174a382b9\transformed\firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
+108                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+108-->[com.google.firebase:firebase-database:20.2.2] C:\Users\taksh\.gradle\caches\transforms-3\93c481a65a1991b5f903298174a382b9\transformed\firebase-database-20.2.2\AndroidManifest.xml:32:17-109
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-database:20.2.2] C:\Users\taksh\.gradle\caches\transforms-3\93c481a65a1991b5f903298174a382b9\transformed\firebase-database-20.2.2\AndroidManifest.xml:33:17-82
+110        </service>
+111
+112        <activity
+112-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\ca8c61c4dbcf9f87623a53a3240df758\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+113            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+113-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\ca8c61c4dbcf9f87623a53a3240df758\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+114            android:exported="false"
+114-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\ca8c61c4dbcf9f87623a53a3240df758\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+115-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\ca8c61c4dbcf9f87623a53a3240df758\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:20.3.2] C:\Users\taksh\.gradle\caches\transforms-3\bdb90605090776947e89c7fa2f6547b1\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:20.3.2] C:\Users\taksh\.gradle\caches\transforms-3\bdb90605090776947e89c7fa2f6547b1\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+119            android:authorities="com.example.bustrackingapp.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:20.3.2] C:\Users\taksh\.gradle\caches\transforms-3\bdb90605090776947e89c7fa2f6547b1\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-common:20.3.2] C:\Users\taksh\.gradle\caches\transforms-3\bdb90605090776947e89c7fa2f6547b1\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+121            android:exported="false"
+121-->[com.google.firebase:firebase-common:20.3.2] C:\Users\taksh\.gradle\caches\transforms-3\bdb90605090776947e89c7fa2f6547b1\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+122            android:initOrder="100" />
+122-->[com.google.firebase:firebase-common:20.3.2] C:\Users\taksh\.gradle\caches\transforms-3\bdb90605090776947e89c7fa2f6547b1\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\a0df2e67ddbac43ab5cbea5f2bf1cf42\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\a0df2e67ddbac43ab5cbea5f2bf1cf42\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\taksh\.gradle\caches\transforms-3\a0df2e67ddbac43ab5cbea5f2bf1cf42\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+127
+128        <provider
+128-->[androidx.emoji2:emoji2:1.2.0] C:\Users\taksh\.gradle\caches\transforms-3\e984e6d4637883c11d9cfc33f6f104e0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+129            android:name="androidx.startup.InitializationProvider"
+129-->[androidx.emoji2:emoji2:1.2.0] C:\Users\taksh\.gradle\caches\transforms-3\e984e6d4637883c11d9cfc33f6f104e0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+130            android:authorities="com.example.bustrackingapp.androidx-startup"
+130-->[androidx.emoji2:emoji2:1.2.0] C:\Users\taksh\.gradle\caches\transforms-3\e984e6d4637883c11d9cfc33f6f104e0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+131            android:exported="false" >
+131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\taksh\.gradle\caches\transforms-3\e984e6d4637883c11d9cfc33f6f104e0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+132            <meta-data
+132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\taksh\.gradle\caches\transforms-3\e984e6d4637883c11d9cfc33f6f104e0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+133                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\taksh\.gradle\caches\transforms-3\e984e6d4637883c11d9cfc33f6f104e0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+134                android:value="androidx.startup" />
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\taksh\.gradle\caches\transforms-3\e984e6d4637883c11d9cfc33f6f104e0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+135            <meta-data
+135-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\taksh\.gradle\caches\transforms-3\45a25140cdce7a33c0769ff60b5c4a18\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+136                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+136-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\taksh\.gradle\caches\transforms-3\45a25140cdce7a33c0769ff60b5c4a18\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+137                android:value="androidx.startup" />
+137-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\taksh\.gradle\caches\transforms-3\45a25140cdce7a33c0769ff60b5c4a18\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+138        </provider>
+139    </application>
+140
+141</manifest>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BusTrackingApp</string>
+    <string name="title_activity_user_maps">UserMapsActivity</string>
+    <string name="title_activity_example_maps">exampleMaps</string>
+
+    <string-array name="busnumbers">
+        <item>227</item>
+        <item>24s|273</item>
+    </string-array>
+
+    <string-array name="tofromLocations">
+        <item>Secunderabad</item>
+        <item>Dhulapally</item>
+        <item>ECIL</item>
+        <item>Gandimaisamma</item>
+    </string-array>
+
+
+</resources>

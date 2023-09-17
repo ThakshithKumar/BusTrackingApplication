@@ -1,0 +1,6 @@
+com.example.bustrackingapp.test.app-annotation-experimental-1.3.0-0 C:\Users\taksh\.gradle\caches\transforms-3\1753cf71745de17c65db01e231eb6e57\transformed\annotation-experimental-1.3.0\res
+com.example.bustrackingapp.test.app-core-1.5.0-1 C:\Users\taksh\.gradle\caches\transforms-3\72a24d8b6168be6155002feb8907c06c\transformed\core-1.5.0\res
+com.example.bustrackingapp.test.app-androidTest-2 C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\build\generated\res\resValues\androidTest\debug
+com.example.bustrackingapp.test.app-mergeDebugAndroidTestResources-3 C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.bustrackingapp.test.app-mergeDebugAndroidTestResources-4 C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.bustrackingapp.test.app-merged_res-5 C:\Users\taksh\AndroidStudioProjects\BusTrackingApp\app\build\intermediates\merged_res\debugAndroidTest

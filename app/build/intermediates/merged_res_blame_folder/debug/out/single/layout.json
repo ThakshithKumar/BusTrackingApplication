@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.bustrackingapp-mergeDebugResources-33:/layout/activity_conductor_login.xml",
+        "source": "com.example.bustrackingapp-main-36:/layout/activity_conductor_login.xml"
+    },
+    {
+        "merged": "com.example.bustrackingapp-mergeDebugResources-33:/layout/activity_share_location2.xml",
+        "source": "com.example.bustrackingapp-main-36:/layout/activity_share_location2.xml"
+    },
+    {
+        "merged": "com.example.bustrackingapp-mergeDebugResources-33:/layout/activity_share_location.xml",
+        "source": "com.example.bustrackingapp-main-36:/layout/activity_share_location.xml"
+    },
+    {
+        "merged": "com.example.bustrackingapp-mergeDebugResources-33:/layout/activity_user_maps.xml",
+        "source": "com.example.bustrackingapp-main-36:/layout/activity_user_maps.xml"
+    },
+    {
+        "merged": "com.example.bustrackingapp-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "com.example.bustrackingapp-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.bustrackingapp-mergeDebugResources-33:/layout/activity_input_bus_details.xml",
+        "source": "com.example.bustrackingapp-main-36:/layout/activity_input_bus_details.xml"
+    }
+]
